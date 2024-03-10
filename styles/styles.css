@@ -26,10 +26,10 @@ nav {
     max-width: 840px;
   }
   aside {
-    width: 1rem;
-    margin: 1rem; 
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem; 
+    width: 400px;
+    margin: 10px; 
+    border: 10px solid rgba(0, 0, 0, 0.2);
+    padding: 10px; 
     background-color: rgb(219, 219, 180);
     color: black;
     text-align: center;
