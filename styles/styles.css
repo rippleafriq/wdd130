@@ -1,5 +1,13 @@
 /* styles.css */
+
 nav {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
     background-color: rgb(178, 180, 70);
     padding: 0;
   }
@@ -25,12 +33,9 @@ nav {
     max-width: 840px;
   }
   aside {
+  <aside class="box">
     width: 400px;
-    margin: 10px; 
     border: 10px solid rgba(0, 0, 0, 0.2);
-    padding: 10px; 
-    background-color: rgb(219, 219, 180);
-    color: black;
     text-align: center;
   }
   aside img{
@@ -46,10 +51,22 @@ nav {
     box-shadow: 0 0 1000px grey;
   }
   p{padding: 0;}
+
+   /* Class Selectors */
+  
+   .box {
+    margin: 2rem;
+    border: 4px solid rgba(252, 11, 11, 0.1);
+    padding: 1rem;
+    background-color: #5a864e;
+    color: #f0c60e;
+  }
   
   footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+  
+   
   }
   
