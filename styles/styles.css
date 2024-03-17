@@ -32,8 +32,9 @@ nav {
   main {
     max-width: 840px;
   }
+
   aside {
-  <aside class="box">
+    aside:class ="box";
     width: 400px;
     border: 10px solid rgba(0, 0, 0, 0.2);
     text-align: center;
