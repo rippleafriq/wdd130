@@ -39,17 +39,24 @@ nav {
     border: 10px solid rgba(0, 0, 0, 0.2);
     text-align: center;
   }
+
+  aside h2 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+ }
   aside img{
     width: 200px;
     height: auto;
   }
  main img{
-    width: 200px;
+    width: 150px;
     height: auto;
     border: 5px solid steelblue;
     padding: 5px;
     margin-top: 15px;
     box-shadow: 0 0 1000px grey;
+    float: right;
   }
   p{padding: 0;}
 
