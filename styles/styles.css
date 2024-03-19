@@ -43,7 +43,7 @@ nav {
   aside h2 {
     width: 200;
     height: auto;
-    position: center;
+    position: relative;
  }
   aside img{
     width: 250px;
