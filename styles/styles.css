@@ -41,10 +41,11 @@ nav {
   }
 
   aside h2 {
-    width: 200;
-    height: auto;
-   
- }
+    position: absolute;
+    top: 47px;
+    left: 150px;
+  }
+  
   aside img{
     width: 250px;
     height: auto;
