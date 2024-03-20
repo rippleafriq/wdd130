@@ -18,6 +18,7 @@ nav {
   }
   h1 {
     color: rgb(118, 70, 180);
+    
   }
   img {
     width: 150px;
@@ -27,21 +28,20 @@ nav {
     box-shadow: 0 0 25px gray;
   } 
   p {
-    padding: 100px;
+    padding: 1000px;
   }
   main {
-    max-width: 840px;
+    max-width: 860px;
   }
 
   aside {
   
-    width: 20rem;
+    width: 30rem;
     border: 10px solid rgba(0, 0, 0, 0.2);
     text-align: center;
   }
 
   aside h2 {
-    height : auto;
     position : relative;
     }
   
