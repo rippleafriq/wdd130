@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=SourceSerif4&family=Dosis&display=swap');
 
-/* styles/rafting.css */
-
 :root {
     --primary-color: #8B008B;
     --secondary-color: #000080;
@@ -16,7 +14,6 @@ h1 {
     font-family: var(--heading-font);
     text-align: center;
 }
-
 h2, h3, h4, h5, h6 {
     font-weight: 700;
     color: var(--primary-color);
@@ -44,10 +41,11 @@ a.sociallink {
 }
 
 /*header*/
+
 .box_parent{
-display: grid;
-grid-template-columns: auto;
-justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around;
 }
 
 .grid_header{
@@ -87,7 +85,7 @@ header {
 /* body*/
 .hero {
     position: relative;
-    background-image: url("bg.webp");
+    background-image: url("hero.PNG");
     background-size: cover;
     background-position: center; 
 }
@@ -145,9 +143,9 @@ header {
 }
 
 .logo img {
-	margin: 0 0.25rem 0 1rem;
-	width: 125px;
-	height: auto;
+    margin: 0 0.25rem 0 1rem;
+    width: 125px;
+    height: auto;
 }
 
 nav {
@@ -214,25 +212,25 @@ figcaption {
 }
 
 article{ display: flex;
-    align-content: flex-start;
-    flex-direction: column-reverse;
-    justify-content: center;
+        align-content: flex-start;
+        flex-direction: column-reverse;
+        justify-content: center;
         
 }
 
 form {
-    padding: 50px;
-    margin: 0 auto;
-    max-width: 75%;
+        padding: 50px;
+        margin: 0 auto;
+        max-width: 75%;
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
-    margin-top: 10px;
+        display: block;
+        margin-bottom: 5px;
+        margin-top: 10px;
 }
 
-    
+      
 input[type="text"], textarea, input[type="email"]  {
     width: 100%;
     padding: 10px; 
@@ -305,31 +303,4 @@ button {
   border: none;
   padding: 10px 10px;   
   float: right;
-}
-.grid_header {
-    margin: 0 auto;
-    max-width: 840px;
-}
-
-.grid_footer {
-    margin: 0 auto;
-    max-width: 840px;
-}
-
-.grid {
-    display: grid;
-    align-items: center;
-}
-aside {
-    width: 30rem;
-    border: 10px solid rgba(0, 0, 0, 0.2);
-    text-align: center;
-}
-
-aside {
-    position: relative;
-}
-header, footer, .grid {
-    margin: 0 auto;
-    max-width: 840px;
 }
