@@ -305,10 +305,16 @@ button {
   padding: 10px 10px;   
   float: right;
 }
-header, footer, .grid {
+.grid_header {
     margin: 0 auto;
     max-width: 840px;
 }
+
+.grid_footer {
+    margin: 0 auto;
+    max-width: 840px;
+}
+
 .grid {
     display: grid;
     align-items: center;
@@ -317,5 +323,8 @@ aside {
     width: 30rem;
     border: 10px solid rgba(0, 0, 0, 0.2);
     text-align: center;
+}
+
+aside {
     position: relative;
 }
