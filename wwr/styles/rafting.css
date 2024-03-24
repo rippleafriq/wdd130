@@ -43,12 +43,11 @@ a.sociallink {
 }
 
 /*header*/
-
-    /* .box_parent{
+.box_parent{
 display: grid;
 grid-template-columns: auto;
 justify-content: space-around;
-}*/
+}
 
 .grid_header{
     display: grid;
