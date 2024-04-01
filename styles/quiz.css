@@ -1,73 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HTML and CSS Quiz</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                background: color 0;
-                margin: 0;
-                padding: 0;
-            }
+/* Reset default styles */
+* {
+    margin: 100;
+    padding: 100;
+    box-sizing: border-box;
+}
 
-            form {
-                max-width: 400px;
-                margin: 0 auto;
-                background-color: #ffffff;
-                padding: 20px;
-                border-radius: 8px;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            }
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b9d638;
+}
 
-            label {
-                display: block;
-                margin-bottom: 15px;
-                font-weight: bold;
-            }
+/* Form container */
+form {
+    max-width: 800px;
+    margin: 10 auto;
+    background-color: #d3d3c4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-            input,
-            textarea,
-            select {
-                width: 100%;
-                padding: 10px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                margin-bottom: 15px;
-                font-size: 14px;
-            }
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
 
-            select {
-                appearance: none;
-                -webkit-appearance: none;
-                padding-right: 30px;
-                background: url("dropdown-arrow.png") no-repeat right center;
-                background-size: 20px;
-            }
+/* Input, textarea, and select styles */
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #faf8f8;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
 
-            button[type="submit"] {
-                background-color: #007bff;
-                color: #ffffff;
-                border: none;
-                padding: 10px 20px;
-                border-radius: 4px;
-                cursor: pointer;
-                font-size: 14px;
-            }
+/* Custom select arrow */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    padding-right: 30px;
+    background: url("dropdown-arrow.png") no-repeat right center;
+    background-size: 20px;
+}
 
-            button[type="submit"]:hover {
-                background-color: #0056b3;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>HTML and CSS Quiz</h1>
+/* Submit button styles */
+button[type="submit"] {
+    background-color: #24f024;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
 
-        <form>
-            <!-- Questions and form elements go here -->
-            <!-- ... -->
-            <button type="submit">Submit Quiz</button>
-        </form>
-    </body>
-</html>
+button[type="submit"]:hover {
+    background-color: #0568d3;
+}
