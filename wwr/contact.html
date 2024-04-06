@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Contact Us | The Ripple Rafting Company</title>
+        <link rel="stylesheet" href="styles/rafting.css">
+        <meta name="description" content="Page includes contact information and contact form, user can use to submit to ask about the company and services provided.">
+        <meta name="author" content="Raphael Kuseni Jena">
+    </head>
+
+    <body class="box_parent">
+        <header class="grid_header">
+            <div class="logo"><img src="images/ripple.png" alt="Rafting Site Logo"></div>
+            <nav class="box_nav">
+                    <div class="box_button"><a href="index.html">Home Page</a></div>
+                    <div class="box_button"><a href="about.html">About Us</a></div>
+                    <div class="box_button"><a href="trips.html">Trips</a></div>
+                    <div class="box_button"><a href="#">Contact</a></div>
+            </nav>
+        </header>
+
+        <main>
+            <h1>The Ripple Rafting Company</h1>
+            
+            <div class="img_emp"> 
+                <aside >
+                    <figure><img src="images/sarah_jackson.PNG" alt="Employee 1: Sarah Jackson"><figcaption>Sarah Jackson</figcaption></figure>
+    
+                    <figure><img src="images/james_mahoney.PNG" alt="Employee 2: James Mahoney"><figcaption>James Mahoney</figcaption></figure>
+    
+                    <figure><img src="images/janet_king.PNG" alt="Employee 3: Janet King"><figcaption>Janet King</figcaption></figure>
+                    
+                </aside>
+            </div>
+
+            <h2>Message Us On:</h2>
+
+            <p><strong>* Address:  </strong>Number 6, Bata Building, Victoria Falls</p>
+
+            <p><strong>* Phone Number(s):  </strong>
+            (+263)22364803751</p>
+
+            <p><strong>* Email address: </strong><a href="mailto:">ripple@rafting.com</a></p>
+          
+           <div class="map"> <!--google map embedding. Go to google maps, "options" and select "Share or embed"--> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15184.360173799283!2d25.819739055419927!3d-17.9279537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x194fe5457aa6a3fd%3A0xe4649cf899af524f!2sShockwave%20Victoria%20Falls%20Whitewater%20Rafting%20Adventures!5e0!3m2!1sen!2sza!4v1707509688431!5m2!1sen!2sza" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+       
+           <form>
+                <h2>Contact Us Here:</h2>
+
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email">
+
+                <fieldset> <!--Insert for Radio buttons-->
+                    <legend>Purpose of Message:</legend>
+                    <label for="purpose-inquiry">
+                      <input type="radio" id="purpose-inquiry" name="purpose" value="inquiry" required>
+                      General Inquiry
+                    </label>
+                    <label for="purpose-reservation">
+                      <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                      Reservation Question
+                    </label>
+                    <label for="purpose-suggestion">
+                      <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+                      Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type message here..." required ></textarea>
+
+                <label for="subscribe"><input type="checkbox" id="subscribe" name="subscribe">Please subscribe me to the monthly newsletter</label>
+                
+                <button type="submit">Send Message Details</button>
+            </form>
+            
+        </main>
+        
+        <footer class="box_footer">
+            <a href="images/contact_wireframe.jpeg" target="_blank">Wireframe</a>
+
+            <p>&copy; 2024 | The Ripple Rafting Company | Raphael Kuseni Jena</p>
+            
+            <nav class="sociallinks"> 
+                <a href="https://www.facebook.com"><img src="images/facebook.jpeg" alt="Graphic link to Facebook"></a>
+                <a href="https://www.instagram.com"><img src="images/insta.jpeg" alt="Graphic link to Instagram"></a>
+                <a href="https://www.twitter.com"><img src="images/x.png" alt="Graphic link to X"></a>
+            </nav>               
+        </footer>
+    </body>
+</html>
