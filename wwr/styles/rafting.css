@@ -25,7 +25,7 @@ body {
     font-family: var(--paragraph-font);
     color: var(--text-color);
     background-color: var(--background-color);
-    max-width: 960px;
+    max-width: 860px;
     margin: auto;
 }
 
@@ -58,7 +58,7 @@ justify-content: space-around;
 }
 .box_nav {
     display: flex;
-    justify-content: center; /*Centers the button*/
+    justify-content: left; /*Centers the button*/
     align-items: center;
     flex-direction: row;
     color: #333;
@@ -145,7 +145,7 @@ header {
 
 .logo img {
 	margin: 0 0.25rem 0 1rem;
-	width: 125px;
+	width: 70px;
 	height: auto;
 }
 
@@ -222,7 +222,7 @@ article{ display: flex;
 form {
     padding: 50px;
     margin: 0 auto;
-    max-width: 75%;
+    max-width: 100%;
 }
 
 label {
